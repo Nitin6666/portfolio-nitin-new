@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+/*Navbar */
+.navbar,
+.navbar-expand-lg {
+    background-color: rgba(18, 18, 18, 0.7);
+}
+
+.hire-me {
+    background-color: #CB5A00;
+    color: #ccc;
+    padding: 5px 10px 5px 10px;
+}
+
+.hire-me:hover {
+    background-color: #CB5A00;
+    color: #ccc;
+    box-shadow: 2px 2px 5px gray;
+}
+
+/*Hero Section */
+.home-container {
+    min-height: 115vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+}
+
+/*Left Container*/
+.home-left {
+    height: 80vh;
+}
+
+.home-left-container {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #ccc;
+}
+
+
+
+.home-left p {
+    font-size: 20px;
+
+}
+
+.content-container button a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.home-left h2 {
+    font-size: 30px;
+}
+
+.home-left h1 {
+    font-size: 50px;
+    color: #CB5A00;
+    margin: 20px 1px;
+    font-weight: bold;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    padding-left: 5px;
+}
+
+.hero-experience-container {
+    background-color: #333232;
+
+}
+
+
+
+.experience-container,
+.project-container,
+.client-container {
+    height: 100%;
+    padding: 20px 0;
+
+}
+
+/* Right Container*/
+.home-right {
+    height: 70vh;
+    width: 50%;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+
+    margin-top: 80px;
+}
+
+.background-circle-nitin-img {
+    background-color: #707070;
+    border-radius: 50%;
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+
+/*Services Section*/
+
+.services-container {
+    min-height: 170vh;
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-services {
+    height: 30vh;
+    width: 100%;
+    color: #ccc;
+}
+
+#about-services h2 {
+    color: white;
+}
+
+.services-icons {
+    color: #CB5A00;
+    font-size: 70px;
+    padding: 20px 0;
+}
+
+.card-title,
+.card-text {
+    color: #ccc;
+}
+
+.responsive-cards {
+    background-color: rgba(112, 112, 112, 0.4);
+}
+
+/*About Me Container*/
+
+.about-me-container {
+    min-height: 200vh;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mediator-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.about-me h1 {
+    color: white;
+}
+
+.about-me p {
+    color: #ccc;
+}
+
+.right-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+}
+
+.right-content div{
+    width:80%;
+}
+
+#hire-me-btn{
+    width:80%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.right-content p {
+    color: #ccc;
+}
+
+.about-me-img-container {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+
+.about-me-img {
+    background-color: #707070;
+    border-radius: 50%;
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.material-symbols-outlined {
+    color: red;
+    font-size: 30px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+/* Progress Container */
+.progress-container {
+    width: 90vw;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.progress-container div {
+    width: 15vw;
+    background-color: rgba(112, 112, 112, 0.4);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+.progress-circle-icon {
+    position: relative;
+
+    color: #CB5A00;
+    font-size: 70px;
+}
+
+.progress-circle-icon i {
+    position: absolute;
+    right: 21px;
+    top: 17px;
+}
+
+.icon-color {
+    color: #ccc;
+}
+
+.about-para {
+    color: #CB5A00;
+}
+
+.progress-container div h5 {
+    color: #ccc
+}
+
+/* Portfolio secton*/
+
+#portfolio-container{
+    min-height:200vh;
+    height:100%;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:50px;
+}
+
+#portfolio-container h2{
+    color:#ccc;
+    margin-bottom:20px;
+}
+
+.portfolio-search-bar{
+    width:60vw;
+    min-height:20vh;
+    margin:20px 0;
+}
+
+.portfolio-search-bar div{
+    padding:0px 20px;
+    background-color: rgba(112, 112, 112, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color:#ccc;
+    height:7vh;
+}
+
+.col a{
+    text-decoration: none;
+}
+
+.portfolio-search-bar div:nth-child(1){
+    background-color: #CB5A00;
+    color:#ccc;
+}
+
+@media(max-width:526px){
+    .services-container{
+        padding-top:50px;
+    }
+}
+
+@media(max-width:763px){
+
+    .progress-container{
+        width:90vw;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-aroun;
+        min-height:60vh;
+    }
+
+    .progress-container div{
+        widtH:70%;
+        min-height: 15vh;
+        flex-wrap:wrap;
+        gap:25px;
+
+    }
+
+    #hire-me-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:1088px) {
+
+    .home-right,
+    .home-left-container {
+        width: 100%;
+    }
+
+    .about-me-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-container {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .background-circle-nitin-img {
+        width:auto;
+        height: auto;
+    }
+
+    .home-left-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me-img {
+        width:auto;
+        height: auto;
+    }
+
+    .mediator-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me-img-container,
+    .right-content {
+        width:auto;
+        height: auto;
+
+    }
+
+    .progress-circle-icon i {
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
+
+    .progress-container{
+        width:100%;
+        min-height: 20vh;
+        flex-wrap:wrap;
+    }
+
+    .portfolio-search-bar{
+        width:100%;
+        justify-content: space-between;
+        height:25vh;
+    }
+}
