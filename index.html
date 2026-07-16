@@ -61,7 +61,7 @@
                                     Me</a>
                             </li>
                             <li class="nav-item me-sm-5">
-                                <a class="nav-link active text-white-50" aria-current="page" href="#about-me">Skills</a>
+                                <a class="nav-link active text-white-50" aria-current="page" href="#skills">Skills</a>
                             </li>
 
                             <li class="nav-item me-sm-5">
@@ -71,11 +71,12 @@
 
                             <li class="nav-item me-sm-5">
                                 <a class="nav-link active text-white-50" aria-current="page"
-                                    href="#certificate">Certification</a>
+                                    href="#certification">Certification</a>
                             </li>
 
                             <li class="nav-item me-sm-5">
-                                <a class="nav-link active text-white-50" aria-current="page" href="#">Contact Me</a>
+                                <a class="nav-link active text-white-50" aria-current="page" href="#contact">Contact
+                                    Me</a>
                             </li>
 
                         </ul>
@@ -91,7 +92,7 @@
     <!--Home Section-->
 
     <section id="home">
-        <div class="home-container d-flex flex-wrap">
+        <div class="home-container d-flex">
             <div class="home-left-container">
                 <div class="home-left p-4">
                     <p>Hi I am </p>
@@ -147,12 +148,12 @@
 
 
     <!--Services Section-->
+
     <section id="services">
         <div class="services-container align-items-center d-flex flex-column justify-content-center">
             <div id="about-services">
                 <h2 class="text-center mt-5 ">Services</h2>
-                <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Nesciunt, quam?
+                <p class="text-center mt-3">Tailored solutions delivering measurable results for clients' needs
                 </p>
             </div>
             <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
@@ -227,14 +228,15 @@
     </section>
 
     <!--About Me-->
+
     <section id="about-me">
         <div class="about-me-container">
             <div class="about-me text-center pt-5">
                 <h1>About Me</h1>
-                <p>Who Am I </p>
+                <p class="fs-5 mt-3">Get to know more about my journey, skills, and passion for web development.</p>
             </div>
             <div class="mediator-container">
-                <div class="about-me-img-container">
+                <div class="about-me-img-container m-3">
                     <div class="about-me-img">
                         <img src="./assets/about-img.png" height="500" class="img-fluid my-img" alt="">
                     </div>
@@ -242,29 +244,60 @@
 
                 <div class="right-content">
                     <div>
-                        <p class="text-justify  fs-5">I'm **Nitin Kumar Gautam**, a Computer Science and Engineering
-                            diploma
-                            student with a strong passion for web development and technology. I enjoy building clean,
-                            responsive, and user-friendly websites using **HTML, CSS, JavaScript, Bootstrap, and C
-                            programming** while continuously improving my skills through practical projects. I believe
-                            in
-                            writing organized, efficient code and creating modern digital experiences that solve
-                            real-world
-                            problems. My goal is to grow into a skilled full-stack developer by learning new
-                            technologies
-                            and gaining hands-on experience. I'm always eager to take on new challenges, expand my
-                            knowledge, and deliver high-quality solutions that make a meaningful impact.
+                        <p class="text-justify  fs-5">Hi, I'm <strong>Nitin Kumar Gautam</strong> — a Computer Science &
+                            Engineering student who loves turning ideas into clean, functional websites.
+                        <dl class="text-white">
+                            <dt class="icon-color"><strong>Who I am</strong></dt>
+                            <dd class="icons-color">A CSE diploma student passionate about web development, always
+                                exploring new
+                                technologies to sharpen my craft.</dd>
+
+                            <dt class="icons-color"><strong>What I do</strong></dt>
+                            <dd class="icons-color">I build responsive, user-friendly websites using HTML, CSS,
+                                JavaScript, Bootstrap, and
+                                C, focused on clean and efficient code.</dd>
+
+                            <dt class="icons-color"><strong>My goal</strong></dt>
+                            <dd class="icons-color">To grow into a skilled full-stack developer — learning constantly,
+                                taking on new
+                                challenges, and building solutions that make a real impact.</dd>
+                        </dl>
                         </p>
                     </div>
-                    <div id="hire-me-btn">
-                        <form class="d-flex text-center align-items-center justify-content-center">
-                            <button class="btn hire-me  about-me-btn mb-2" type="submit">Hire Me</button>
+                    <div id="hire-me-btn" class="mt-3 text-center">
+                        <form class="d-flex content-container text-center align-items-between w-100">
+                            <button class="btn hire-me me-5" type="submit">
+                                <a href="./assets/resume/Nitin_Kumar_Resume.pdf" target="_blank">
+                                    View Resume
+                                </a>
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary">
+                                <a href="#">Download CV</a>
+                            </button>
                         </form>
+                    </div>
+                    <div class="social-media mt-4 icon-color ms-2">
+                        <a href="https://www.instagram.com/techie_nitin_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nitin-kumar-33743428b/" target="_blank"><i
+                                class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="https://wa.me/8439212839" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="tel:8439212839" target="_blank"><i class="fa-solid fa-phone"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="progress-container mx-5 mt-5 d-flex align-items-center">
-                <div class="g-4">
+
+        </div>
+    </section>
+
+    <!--Skills Container-->
+    <section id="skills">
+        <div id="skills-container">
+            <h1 class="text-center pt-5  text-white">Skills</h1>
+            <p class="text-center icon-color mt-3">Diverse expertise spanning technical, creative, and problem-solving
+                abilities</p>
+            <div class="progress-container mt-5 d-flex flex-wrap align-items-center justify-content-center">
+                <div class="g-4 m-3">
                     <i class="fa-regular fa-circle progress-circle-icon">
                         <i class="fa-brands fa-html5 fs-1 icon-color"></i>
                     </i>
@@ -272,7 +305,7 @@
                     <p class="pt-3 about-para">100%</p>
                     <h5>HTML5</h5>
                 </div>
-                <div class="g-4">
+                <div class="g-4 m-3">
                     <i class="fa-regular fa-circle progress-circle-icon">
                         <i class="fa-brands fa-css3-alt fs-1 icon-color"></i>
                     </i>
@@ -280,7 +313,7 @@
                     <p class="pt-3 about-para">100%</p>
                     <h5>CSS3</h5>
                 </div>
-                <div class="g-4">
+                <div class=" m-3">
                     <span class="material-symbols-outlined  progress-circle-icon">
                         <i class="fa-brands fa-js fs-2 ps-2 icon-color special-icon"></i>
                         progress_activity
@@ -289,14 +322,39 @@
                     <p class="pt-3 about-para">75%</p>
                     <h5>JavaScript</h5>
                 </div>
-                <div class="g-4">
+                <div class="g-4 m-3">
+                    <i class="fa-regular fa-circle progress-circle-icon">
+                        <i class="fa-solid fa-c  fs-1 icon-color"></i>
+                    </i>
+
+                    <p class="pt-3 about-para">100%</p>
+                    <h5 class="text-center">C Programming</h5>
+                </div>
+                <div class=" m-3">
+                    <span class="material-symbols-outlined  progress-circle-icon">
+                        <i class="fa-solid fa-computer  fs-2 ps-2 icon-color special-icon"></i>
+                        progress_activity
+                    </span>
+
+                    <p class="pt-3 about-para">75%</p>
+                    <h5>JavaScript</h5>
+                </div>
+                <div class="g-4 m-3">
+                    <i class="fa-regular fa-circle progress-circle-icon">
+                        <i class="fa-brands fa-python fs-1 icon-color"></i>
+                    </i>
+
+                    <p class="pt-3 about-para">100%</p>
+                    <h5>Python</h5>
+                </div>
+                <div class=" m-3">
                     <i class="fa-regular fa-circle progress-circle-icon">
                         <i class="fa-brands fa-figma fs-1 icon-color"></i>
                     </i>
                     <p class="pt-3 about-para">100%</p>
                     <h5>Figma</h5>
                 </div>
-                <div class="g-4">
+                <div class=" m-3">
                     <span class="material-symbols-outlined progress-circle-icon">
                         <i class="fa-brands fa-git-alt fs-2 ps-2 icon-color special-icon"></i>
                         progress_activity
@@ -307,26 +365,25 @@
                 </div>
             </div>
         </div>
+
     </section>
 
-    <section>
-        skills Section
-    </section>
-
+    <!--Project Section-->
     <section id="projects">
-        <!--Portfolio Section-->
         <div id="portfolio-container">
-            <h2 class="text-center">Projects</h2>
-            <div class="portfolio-search-bar flex-wrap d-flex justify-content-evenly">
-                <div>All</div>
-                <div>Website Design</div>
-                <div>App/Mobile Design</div>
-                <div>App Desktop</div>
-                <div>Braiding</div>
+            <h2 class="text-center mb-2">Projects</h2>
+            <div id="portfolio-container-projects">
+                <div class="portfolio-search-bar flex-wrap d-flex justify-content-evenly">
+                    <div>All</div>
+                    <div>Website Design</div>
+                    <div>App/Mobile Design</div>
+                    <div>App Desktop</div>
+                    <div>Braiding</div>
+                </div>
             </div>
 
             <div id="portfolio-img-container">
-                <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
+                <div class="row row-cols-1 mx-5 mb-3 row-cols-md-3 g-4">
                     <!--Card 1-->
                     <div class="col">
                         <a href="https://portfolio-tau-lovat-vnug2p773r.vercel.app/" target="_blank">
@@ -446,9 +503,198 @@
             </div>
     </section>
 
-    <section>contact us </section>
 
-    <section>footer</section>
+    <!-- Certification Section -->
+    <section id="certification">
+        <div id="certification-container">
+            <h2 class="text-center text-white">Certification</h2>
+            <div id="portfolio-img-container mt-5">
+                <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
+                    <!--Card 1-->
+                    <div class="col">
+                        <a href="https://coursera.org/verify/IE5ZJ4GKLBAP" target="_blank">
+                            <div class="card h-100 text-center responsive-cards">
+                                <img src="./assets/Verified Certificate 3.jpeg" class="card-img-top"
+                                    alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">IBM – Introduction to HTML, CSS, & JavaScript</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 2-->
+                    <div class="col">
+                        <a href="https://coursera.org/verify/E26WZQ0IZMNB" target="_blank">
+                            <div class="card h-100 text-center responsive-cards">
+                                <img src="./assets/Verified Certificate 1.jpeg" class="card-img-top"
+                                    alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Google – Foundations of Cybersecurity</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 3-->
+                    <div class="col">
+                        <a href="https://coursera.org/verify/0LDP7D2QWT4Z" target="_blank">
+                            <div class="card h-100 text-center responsive-cards">
+                                <img src="./assets/verified Certificate 2.jpeg" class="card-img-top"
+                                    alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coursera Project – Getting Started with Microsoft Excel</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 4-->
+                    <div class="col">
+                        <a href="https://www.credly.com/go/2aTsFIVH" target="_blank">
+                            <div class="card h-100 text-center responsive-cards">
+                                <img src="./assets/Verified  Certificate 6.png" class="card-img-top"
+                                    alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Qualcomm – AI Upskilling Certificate</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 5-->
+                    <div class="col">
+                        <a href="https://chamith-fitness-by-nitin.vercel.app/" target="_blank">
+                            <div class="card h-100 text-center responsive-cards mb-2">
+                                <img src="./assets/Verified Certificate 5.png" class="card-img-top"
+                                    alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">NIELIT – Certificate for National Occupational Standards</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 6-->
+                    <div class="col">
+                        <a href="https://www.credly.com/badges/4d0431a7-6a39-4008-86fd-cb1a2d3db01d" target="_blank">
+                            <div class="card h-100 text-center responsive-cards mb-2">
+                                <img src="./assets/Verified Certificate 4.png" class="card-img-top"
+                                    alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Python Essential Certification</h5>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 7-->
+                    <div class="col">
+                        <a href="#" target="_blank">
+                            <div class="card h-100 text-center responsive-cards mb-2">
+                                <img src="./assets/Certificate 1.jpg" class="card-img-top" alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">SimpliLearn- Web Development for Beginner</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 8-->
+                    <div class="col">
+                        <a href="#" target="_blank">
+                            <div class="card h-100 text-center responsive-cards ">
+                                <img src="./assets/Certificate 2.png" class="card-img-top" alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cydenium - Ethical Hacking Masterclass</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Card 9-->
+                    <div class="col">
+                        <a href="#" target="_blank">
+                            <div class="card h-100 text-center responsive-cards">
+                                <img src="./assets/Certificate 3.png" class="card-img-top" alt="personal-portfolio">
+                                <div class="card-body">
+                                    <h5 class="card-title">EY AI Skills Passport</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div id="contact-us">
+            <div>
+                <h2 class="text-center text-white">Contact Us</h2>
+                <p class="text-center text-white-50">Let's create something amazing together — reach out.</p>
+            </div>
+
+            <div id="input-container-contact" class="flex-wrap d-flex">
+                <form action="#">
+                    <div id="left-contact-us">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Timeline">
+                        </div>
+                    </div>
+    
+                    <div id="right-contact-us">
+    
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
+                        </div>
+    
+                        <div class="mb-3">
+    
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Service of Interest">
+                        </div>
+    
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Project Details......"
+                                id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+    
+                        <div id="send-me-btn" class="d-flex justify-content-end">
+                            <button type="submit" class="rounded-3 px-4 py-1">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <div id="footer" class="text-white py-4">
+        <div class="text-center mb-3">
+            <h1 class="fw-bold">Contact</h1>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 text-center px-3">
+            <p class="my-1">
+                <i class="fa-solid text-body-secondary fa-envelope me-2"></i>technicalnitin70@gmail.com
+            </p>
+            <p class="my-1">
+                <i class="fa-solid text-body-secondary fa-phone me-2"></i>+91 8439212839
+            </p>
+            <p class="my-1">
+                <i class="fa-solid text-body-secondary fa-location-dot me-2"></i>Madhu Nagar, Agra
+            </p>
+            <p class="my-1 mb-0">
+                Copyright &copy; 2026. All rights reserved.
+            </p>
+            <p class="fs-5 my-1 mb-0">
+                Created with ❤️ by <span class="text-danger">#Nitin Kumar Gautam</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <a id="whatsapp" href="https://wa.me/8439212839"><i class="fa-brands fa-whatsapp"></i></a>
+    <a id="call" href="tel:8439212839"><i class="fa-solid fa-phone"></i></a>
 
 
     <!--Bootstrap Js-->
