@@ -13,10 +13,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Geist+Pixel&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
-    <!--Google Material Icons-->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=progress_activity" />
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -81,7 +77,10 @@
 
                         </ul>
                         <form class="d-flex text-center align-items-center justify-content-center">
-                            <button class="btn hire-me me-sm-5" type="submit">Hire Me</button>
+                            <button class="btn hire-me me-sm-5" type="submit">
+                                <a
+                                    href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi%20Nitin%2C%20I%20came%20across%20your%20portfolio%20and%20was%20impressed%20with%20your%20work.%20I%27d%20like%20to%20discuss%20a%20project%20or%20potential%20opportunity.%20Looking%20forward%20to%20connecting%20with%20you!">Hire
+                                    Me</a></button>
                         </form>
                     </div>
                 </div>
@@ -89,194 +88,615 @@
         </div>
     </header>
 
-    <!--Home Section-->
-
-    <section id="home">
-        <div class="home-container d-flex">
-            <div class="home-left-container">
-                <div class="home-left p-4">
-                    <p>Hi I am </p>
-                    <h2>Nitin Kumar Gautam</h2>
-
-                    <h1>Frontend Developer</h1>
-
-                    <div class="social-media">
-                        <a href="https://www.instagram.com/techie_nitin_/" target="_blank"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/nitin-kumar-33743428b/" target="_blank"><i
-                                class="fa-brands fa-square-linkedin"></i></a>
-                        <a href="https://wa.me/8439212839" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="tel:8439212839" target="_blank"><i class="fa-solid fa-phone"></i></a>
-                    </div>
-
-                    <form class="d-flex content-container text-center align-items-between w-100">
-                        <button class="btn hire-me me-5" type="submit">
-                            <a href="./assets/resume/Nitin_Kumar_Resume.pdf" target="_blank">
-                                View Resume
-                            </a>
-                        </button>
-                        <button type="button" class="btn btn-outline-secondary">
-                            <a href="#">Download CV</a>
-                        </button>
-                    </form>
-
-                    <div class="row hero-experience-container d-flex rounded-3 mx-auto mt-5 text-center g-2">
-                        <div class="col-4 experience-container">
-                            <span style="color:#CB5A00;">20+</span><br>
-                            <span>Certificate</span>
+    <!--Main Content-->
+    <main>
+        <!--Home Section-->
+    
+        <section id="home">
+            <div class="home-container d-flex">
+                <div class="home-left-container">
+                    <div class="home-left p-4">
+                        <p>Hi I am </p>
+                        <h2>Nitin Kumar Gautam</h2>
+    
+                        <h1>Frontend Developer</h1>
+    
+                        <div class="social-media">
+                            <a href="https://www.instagram.com/techie_nitin_/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/nitin-kumar-33743428b/" target="_blank"><i
+                                    class="fa-brands fa-square-linkedin"></i></a>
+                            <a href="https://wa.me/8439212839" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="tel:8439212839" target="_blank"><i class="fa-solid fa-phone"></i></a>
                         </div>
-                        <div class="col-4 project-container border-start border-end">
-                            <span style="color:#CB5A00;">8+</span><br>
-                            <span>Project Done</span>
-                        </div>
-                        <div class="col-4 client-container">
-                            <span style="color:#CB5A00;">10+</span><br>
-                            <span>Skills</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="home-right">
-                <div class="background-circle-nitin-img">
-                    <img src="./assets/my-pic.png" class="img-fluid my-img" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--Services Section-->
-
-    <section id="services">
-        <div class="services-container align-items-center d-flex flex-column justify-content-center">
-            <div id="about-services">
-                <h2 class="text-center mt-5 ">Services</h2>
-                <p class="text-center mt-3">Tailored solutions delivering measurable results for clients' needs
-                </p>
-            </div>
-            <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
-                <!--Card 1-->
-                <div class="col">
-                    <div class="card h-100 text-center responsive-cards">
-                        <i class="fa-solid fa-code card-img-top services-icons"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Frontend Development</h5>
-                            <p class="card-text">Building responsive, modern, and interactive websites using HTML, CSS,
-                                JavaScript, and Bootstrap.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Card 2-->
-                <div class="col">
-                    <div class="card h-100 text-center responsive-cards">
-                        <i class="fa-solid fa-mobile-screen-button card-img-top services-icons"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Responsive Web Design</h5>
-                            <p class="card-text">Creating mobile-friendly, responsive websites that deliver seamless
-                                experiences across all devices and screen sizes.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Card 3-->
-                <div class="col">
-                    <div class="card h-100 text-center responsive-cards">
-                        <i class="fa-brands fa-bootstrap card-img-top services-icons"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap Development</h5>
-                            <p class="card-text">Developing responsive, customizable, and professional websites using
-                                Bootstrap with clean, maintainable code.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Card 4-->
-                <div class="col">
-                    <div class="card h-100 text-center responsive-cards">
-                        <i class="fa-solid fa-palette card-img-top services-icons"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">UI Design</h5>
-                            <p class="card-text">Designing visually appealing, user-friendly interfaces focused on
-                                simplicity, usability, and modern design principles.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Card 5-->
-                <div class="col">
-                    <div class="card h-100 text-center responsive-cards">
-                        <i class="fa-solid fa-screwdriver-wrench card-img-top services-icons"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">IT Support</h5>
-                            <p class="card-text">Providing software installation, system troubleshooting, Windows setup,
-                                maintenance, and reliable technical support services.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Card 6-->
-                <div class="col">
-                    <div class="card h-100 text-center responsive-cards mb-2">
-                        <i class="fa-solid fa-laptop-code card-img-top services-icons"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Landing Page Development</h5>
-                            <p class="card-text">Creating high-converting, responsive landing pages optimized for
-                                performance, engagement, and business growth.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--About Me-->
-
-    <section id="about-me">
-        <div class="about-me-container">
-            <div class="about-me text-center pt-5">
-                <h1>About Me</h1>
-                <p class="fs-5 mt-3">Get to know more about my journey, skills, and passion for web development.</p>
-            </div>
-            <div class="mediator-container">
-                <div class="about-me-img-container m-3">
-                    <div class="about-me-img">
-                        <img src="./assets/about-img.png" height="500" class="img-fluid my-img" alt="">
-                    </div>
-                </div>
-
-                <div class="right-content">
-                    <div>
-                        <p class="text-justify  fs-5">Hi, I'm <strong>Nitin Kumar Gautam</strong> — a Computer Science &
-                            Engineering student who loves turning ideas into clean, functional websites.
-                        <dl class="text-white">
-                            <dt class="icon-color"><strong>Who I am</strong></dt>
-                            <dd class="icons-color">A CSE diploma student passionate about web development, always
-                                exploring new
-                                technologies to sharpen my craft.</dd>
-
-                            <dt class="icons-color"><strong>What I do</strong></dt>
-                            <dd class="icons-color">I build responsive, user-friendly websites using HTML, CSS,
-                                JavaScript, Bootstrap, and
-                                C, focused on clean and efficient code.</dd>
-
-                            <dt class="icons-color"><strong>My goal</strong></dt>
-                            <dd class="icons-color">To grow into a skilled full-stack developer — learning constantly,
-                                taking on new
-                                challenges, and building solutions that make a real impact.</dd>
-                        </dl>
-                        </p>
-                    </div>
-                    <div id="hire-me-btn" class="mt-3 text-center">
+    
                         <form class="d-flex content-container text-center align-items-between w-100">
                             <button class="btn hire-me me-5" type="submit">
-                                <a href="./assets/resume/Nitin_Kumar_Resume.pdf" target="_blank">
+                                <a href="./assets/resume/Nitin_Kumar_Resume.pdf">
                                     View Resume
                                 </a>
                             </button>
                             <button type="button" class="btn btn-outline-secondary">
-                                <a href="#">Download CV</a>
+                                <a href="./assets/resume/Nitin_Kumar_Resume.pdf" download>Download CV</a>
                             </button>
                         </form>
+    
+                        <div class="row hero-experience-container d-flex rounded-3 mx-auto mt-5 text-center g-2">
+                            <div class="col-4 experience-container">
+                                <span style="color:#CB5A00;">20+</span><br>
+                                <span>Certificate</span>
+                            </div>
+                            <div class="col-4 project-container border-start border-end">
+                                <span style="color:#CB5A00;">8+</span><br>
+                                <span>Project Done</span>
+                            </div>
+                            <div class="col-4 client-container">
+                                <span style="color:#CB5A00;">10+</span><br>
+                                <span>Skills</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="social-media mt-4 icon-color ms-2">
+                </div>
+    
+    
+                <div class="home-right">
+                    <div class="background-circle-nitin-img">
+                        <img src="./assets/my-pic.png" class="img-fluid my-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!--Services Section-->
+    
+        <section id="services">
+            <div class="services-container align-items-center d-flex flex-column justify-content-center">
+                <div id="about-services">
+                    <h2 class="text-center mt-5 ">Services</h2>
+                    <p class="text-center mt-3">Tailored solutions delivering measurable results for clients' needs
+                    </p>
+                </div>
+                <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
+                    <!--Card 1-->
+                    <div class="col">
+                        <div class="card h-100 text-center responsive-cards">
+                            <i class="fa-solid fa-code card-img-top services-icons"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Frontend Development</h5>
+                                <p class="card-text">Building responsive, modern, and interactive websites using HTML, CSS,
+                                    JavaScript, and Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card 2-->
+                    <div class="col">
+                        <div class="card h-100 text-center responsive-cards">
+                            <i class="fa-solid fa-mobile-screen-button card-img-top services-icons"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Responsive Web Design</h5>
+                                <p class="card-text">Creating mobile-friendly, responsive websites that deliver seamless
+                                    experiences across all devices and screen sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card 3-->
+                    <div class="col">
+                        <div class="card h-100 text-center responsive-cards">
+                            <i class="fa-brands fa-bootstrap card-img-top services-icons"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap Development</h5>
+                                <p class="card-text">Developing responsive, customizable, and professional websites using
+                                    Bootstrap with clean, maintainable code.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card 4-->
+                    <div class="col">
+                        <div class="card h-100 text-center responsive-cards">
+                            <i class="fa-solid fa-palette card-img-top services-icons"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">UI Design</h5>
+                                <p class="card-text">Designing visually appealing, user-friendly interfaces focused on
+                                    simplicity, usability, and modern design principles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card 5-->
+                    <div class="col">
+                        <div class="card h-100 text-center responsive-cards">
+                            <i class="fa-solid fa-screwdriver-wrench card-img-top services-icons"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">IT Support</h5>
+                                <p class="card-text">Providing software installation, system troubleshooting, Windows setup,
+                                    maintenance, and reliable technical support services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card 6-->
+                    <div class="col">
+                        <div class="card h-100 text-center responsive-cards mb-2">
+                            <i class="fa-solid fa-laptop-code card-img-top services-icons"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page Development</h5>
+                                <p class="card-text">Creating high-converting, responsive landing pages optimized for
+                                    performance, engagement, and business growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!--About Me-->
+    
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me text-center pt-5">
+                    <h1>About Me</h1>
+                    <p class="fs-5 mt-3">Get to know more about my journey, skills, and passion for web development.</p>
+                </div>
+                <div class="mediator-container">
+                    <div class="about-me-img-container m-3">
+                        <div class="about-me-img">
+                            <img src="./assets/about-img.png" height="500" class="img-fluid my-img" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="right-content">
+                        <div>
+                            <p class="text-justify  fs-5">Hi, I'm <strong>Nitin Kumar Gautam</strong> — a Computer Science &
+                                Engineering student who loves turning ideas into clean, functional websites.
+                            <dl class="text-white">
+                                <dt class="icon-color"><strong>Who I am</strong></dt>
+                                <dd class="icons-color">A CSE diploma student passionate about web development, always
+                                    exploring new
+                                    technologies to sharpen my craft.</dd>
+    
+                                <dt class="icons-color"><strong>What I do</strong></dt>
+                                <dd class="icons-color">I build responsive, user-friendly websites using HTML, CSS,
+                                    JavaScript, Bootstrap, and
+                                    C, focused on clean and efficient code.</dd>
+    
+                                <dt class="icons-color"><strong>My goal</strong></dt>
+                                <dd class="icons-color">To grow into a skilled full-stack developer — learning constantly,
+                                    taking on new
+                                    challenges, and building solutions that make a real impact.</dd>
+                            </dl>
+                            </p>
+                        </div>
+                        <div id="hire-me-btn" class="mt-3 text-center">
+                            <form class="d-flex content-container text-center align-items-between w-100">
+                                <button class="btn hire-me me-5" type="submit">
+                                    <a href="./assets/resume/Nitin_Kumar_Resume.pdf" target="_blank">
+                                        View Resume
+                                    </a>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <a href="./assets/resume/Nitin_Kumar_Resume.pdf" download>Download CV</a>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="social-media mt-4 icon-color ms-2">
+                            <a href="https://www.instagram.com/techie_nitin_/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/nitin-kumar-33743428b/" target="_blank"><i
+                                    class="fa-brands fa-square-linkedin"></i></a>
+                            <a href="https://wa.me/8439212839" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="tel:8439212839" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <!--Skills Container-->
+        <section id="skills">
+            <div id="skills-container">
+                <h1 class="text-center pt-5  text-white">Skills</h1>
+                <p class="text-center icon-color mt-2 my-3">Diverse expertise spanning technical, creative, and
+                    problem-solving
+                    abilities</p>
+                <div class="progress-container mt-5">
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-brands fa-html5 fs-2 icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">100%</p>
+                        <h5>HTML5</h5>
+                    </div>
+                    <div class="g-4">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-brands fa-css3-alt fs-2 icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">100%</p>
+                        <h5>CSS3</h5>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-brands fa-js fs-2 icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">75%</p>
+                        <h5>JavaScript</h5>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-solid fa-c  fs-2 icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">100%</p>
+                        <h5 class="text-center">C Programming</h5>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-solid fa-computer  fs-2  icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">75%</p>
+                        <h5>JavaScript</h5>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-brands fa-python fs-2 icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">100%</p>
+                        <h5>Python</h5>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-brands fa-figma fs-2 icon-color"></i>
+                        </i>
+                        <p class="pt-3 about-para">100%</p>
+                        <h5>Figma</h5>
+                    </div>
+                    <div class="">
+                        <i class="fa-regular fa-circle progress-circle-icon">
+                            <i class="fa-brands fa-git-alt fs-2 icon-color"></i>
+                        </i>
+    
+                        <p class="pt-3 about-para">70%</p>
+                        <h5>Git</h5>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+        <!--Project Section-->
+        <section id="projects">
+            <div id="portfolio-container">
+                <h2 class="text-center mb-2">Projects</h2>
+                <div id="portfolio-container-projects">
+                    <div class="portfolio-search-bar flex-wrap d-flex justify-content-evenly">
+                        <div>All</div>
+                        <div>Website Design</div>
+                        <div>App/Mobile Design</div>
+                        <div>App Desktop</div>
+                        <div>Braiding</div>
+                    </div>
+                </div>
+    
+                <div id="portfolio-img-container">
+                    <div class="row row-cols-1 mx-5 mb-3 row-cols-md-3 g-4">
+                        <!--Card 1-->
+                        <div class="col">
+                            <a href="https://portfolio-tau-lovat-vnug2p773r.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/project 1.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> Personal Portfolio</h5>
+                                        <p class="card-text">Animated space-themed portfolio showcasing my skills, projects,
+                                            and contact details.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 2-->
+                        <div class="col">
+                            <a href="https://ferra-landing-page.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/project 3.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ferra – SaaS Landing Page</h5>
+                                        <p class="card-text">Modern dark-themed SaaS landing page for a data automation
+                                            product.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 3-->
+                        <div class="col">
+                            <a href="https://o-level-project.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/project 4.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MyStore – Ecommerce Website</h5>
+                                        <p class="card-text">Responsive ecommerce UI with product search, categories, and
+                                            promotional banners.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 4-->
+                        <div class="col">
+                            <a href="https://elysian-journey-by-nitin.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/project 5.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Elysian Journeys – Tour & Travel Website</h5>
+                                        <p class="card-text">Travel website featuring image carousel, service highlights,
+                                            and tour navigation.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 5-->
+                        <div class="col">
+                            <a href="https://chamith-fitness-by-nitin.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/project 6.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Power World Gyms – Fitness Website</h5>
+                                        <p class="card-text">Bold black-and-white fitness landing page promoting gym
+                                            memberships and training.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 6-->
+                        <div class="col">
+                            <a href="https://stone-paper-scissor-by-nitin.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/project 7.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Stone Paper Scissors Game</h5>
+                                        <p class="card-text">Interactive JavaScript game where users play against the
+                                            computer live.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 7-->
+                        <div class="col">
+                            <a href="https://where-is-my-train-by-nitin.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/project 8.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Where Is My Train</h5>
+                                        <p class="card-text">Train tracking app for live status, PNR check, and seat
+                                            availability.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 8-->
+                        <div class="col">
+                            <a href="https://calculator-made-by-nitin.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/project 9.jpeg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Calculator App</h5>
+                                        <p class="card-text">Minimal dark-themed calculator app supporting all basic
+                                            arithmetic operations.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 9-->
+                        <div class="col">
+                            <a href="#" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <h1 class="card-title text-center">Under Construction</h1>
+    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    
+    
+        <!-- Certification Section -->
+        <section id="certification">
+            <div id="certification-container">
+                <h2 class="text-center text-white">Certification</h2>
+                <p class="text-center text-white-50">Certifications earned through hands-on learning and practice</p>
+                <div id="portfolio-img-container mt-5">
+                    <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
+                        <!--Card 1-->
+                        <div class="col">
+                            <a href="https://coursera.org/verify/IE5ZJ4GKLBAP" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/Verified Certificate 3.jpeg" class="card-img-top"
+                                        alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">IBM – Introduction to HTML, CSS, & JavaScript</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 2-->
+                        <div class="col">
+                            <a href="https://coursera.org/verify/E26WZQ0IZMNB" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/Verified Certificate 1.jpeg" class="card-img-top"
+                                        alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Google – Foundations of Cybersecurity</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 3-->
+                        <div class="col">
+                            <a href="https://coursera.org/verify/0LDP7D2QWT4Z" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/verified Certificate 2.jpeg" class="card-img-top"
+                                        alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coursera Project – Getting Started with Microsoft Excel</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 4-->
+                        <div class="col">
+                            <a href="https://www.credly.com/go/2aTsFIVH" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/Verified  Certificate 6.png" class="card-img-top"
+                                        alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Qualcomm – AI Upskilling Certificate</h5>
+    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 5-->
+                        <div class="col">
+                            <a href="https://chamith-fitness-by-nitin.vercel.app/" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/Verified Certificate 5.png" class="card-img-top"
+                                        alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">NIELIT – Certificate for National Occupational Standards</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 6-->
+                        <div class="col">
+                            <a href="https://www.credly.com/badges/4d0431a7-6a39-4008-86fd-cb1a2d3db01d" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/Verified Certificate 4.png" class="card-img-top"
+                                        alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Python Essential Certification</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 7-->
+                        <div class="col">
+                            <a href="#" target="_blank">
+                                <div class="card h-100 text-center responsive-cards mb-2">
+                                    <img src="./assets/Certificate 1.jpg" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SimpliLearn- Web Development for Beginner</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 8-->
+                        <div class="col">
+                            <a href="#" target="_blank">
+                                <div class="card h-100 text-center responsive-cards ">
+                                    <img src="./assets/Certificate 2.png" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cydenium - Ethical Hacking Masterclass</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--Card 9-->
+                        <div class="col">
+                            <a href="#" target="_blank">
+                                <div class="card h-100 text-center responsive-cards">
+                                    <img src="./assets/Certificate 3.png" class="card-img-top" alt="personal-portfolio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">EY AI Skills Passport</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    
+        <!--Contact Section-->
+        <section id="contact">
+            <div id="contact-us">
+                <div>
+                    <h2 class="text-center text-white">Contact Us</h2>
+                    <p class="text-center text-white-50">Let's create something amazing together — reach out.</p>
+                </div>
+    
+                <div id="input-container-contact" class="flex-wrap d-flex">
+                    <form id="contactForm">
+                        <div id="left-contact-us">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="name" id="contactName" placeholder="Name"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="phone" id="contactPhone"
+                                    placeholder="Phone Number" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="timeline" id="contactTimeline"
+                                    placeholder="Timeline">
+                            </div>
+                        </div>
+    
+                        <div id="right-contact-us">
+    
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" id="contactEmail" placeholder="Email"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="service" id="contactService"
+                                    placeholder="Service of Interest">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="details" placeholder="Project Details......"
+                                    id="contactDetails" rows="5"></textarea>
+                            </div>
+                            <div id="send-me-btn" class="d-flex justify-content-end">
+                                <button type="submit" class="rounded-3 px-4 py-1">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div id="footer" class="text-white py-4">
+            <div class="text-center mb-3">
+                <h1 class="fw-bold">Connect Me In</h1>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center align-items-center flex-wrap gap-4 text-center px-3">
+                <div class="w-100">
+                    <p class="my-1"  id="footer-links">
+                        <a
+                            href="mailto:nitinkumar20062010@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Nitin,%0A%0AI%20came%20across%20your%20portfolio%20and%20was%20impressed%20with%20your%20work.%20I%20would%20like%20to%20connect%20with%20you%20to%20discuss%20a%20potential%20opportunity%20or%20collaboration.%0A%0APlease%20let%20me%20know%20a%20convenient%20time%20to%20talk.%0A%0ALooking%20forward%20to%20hearing%20from%20you.%0A%0ABest%20regards">
+                            <i class="fa-solid fa-envelope me-2"></i>nitinkumar20062010@gmail.com
+                        </a>
+                    </p>
+                    <p class="my-1 " id="footer-links">
+                        <a href="tel:8439212839">
+                            <i class="fa-solid fa-phone me-2"></i>+91 8439212839
+                        </a>
+                    </p>
+                    <p class="my-1" id="footer-links">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Madhu+Nagar+Agra" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-solid fa-location-dot me-1"></i> Madhu Nagar, Agra
+                        </a>
+                    </p>
+                </div>
+                <div class="w-100">
+                    <div class="social-media mt-4 icon-color ms-2 d-flex justify-content-center">
                         <a href="https://www.instagram.com/techie_nitin_/" target="_blank"><i
                                 class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/nitin-kumar-33743428b/" target="_blank"><i
@@ -285,413 +705,20 @@
                         <a href="tel:8439212839" target="_blank"><i class="fa-solid fa-phone"></i></a>
                     </div>
                 </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!--Skills Container-->
-    <section id="skills">
-        <div id="skills-container">
-            <h1 class="text-center pt-5  text-white">Skills</h1>
-            <p class="text-center icon-color mt-3">Diverse expertise spanning technical, creative, and problem-solving
-                abilities</p>
-            <div class="progress-container mt-5 d-flex flex-wrap align-items-center justify-content-center">
-                <div class="g-4 m-3">
-                    <i class="fa-regular fa-circle progress-circle-icon">
-                        <i class="fa-brands fa-html5 fs-1 icon-color"></i>
-                    </i>
-
-                    <p class="pt-3 about-para">100%</p>
-                    <h5>HTML5</h5>
+                <div>
+                    <p class=" w-100">
+                        Copyright &copy; 2026. All rights reserved.
+                    </p>
                 </div>
-                <div class="g-4 m-3">
-                    <i class="fa-regular fa-circle progress-circle-icon">
-                        <i class="fa-brands fa-css3-alt fs-1 icon-color"></i>
-                    </i>
-
-                    <p class="pt-3 about-para">100%</p>
-                    <h5>CSS3</h5>
-                </div>
-                <div class=" m-3">
-                    <span class="material-symbols-outlined  progress-circle-icon">
-                        <i class="fa-brands fa-js fs-2 ps-2 icon-color special-icon"></i>
-                        progress_activity
-                    </span>
-
-                    <p class="pt-3 about-para">75%</p>
-                    <h5>JavaScript</h5>
-                </div>
-                <div class="g-4 m-3">
-                    <i class="fa-regular fa-circle progress-circle-icon">
-                        <i class="fa-solid fa-c  fs-1 icon-color"></i>
-                    </i>
-
-                    <p class="pt-3 about-para">100%</p>
-                    <h5 class="text-center">C Programming</h5>
-                </div>
-                <div class=" m-3">
-                    <span class="material-symbols-outlined  progress-circle-icon">
-                        <i class="fa-solid fa-computer  fs-2 ps-2 icon-color special-icon"></i>
-                        progress_activity
-                    </span>
-
-                    <p class="pt-3 about-para">75%</p>
-                    <h5>JavaScript</h5>
-                </div>
-                <div class="g-4 m-3">
-                    <i class="fa-regular fa-circle progress-circle-icon">
-                        <i class="fa-brands fa-python fs-1 icon-color"></i>
-                    </i>
-
-                    <p class="pt-3 about-para">100%</p>
-                    <h5>Python</h5>
-                </div>
-                <div class=" m-3">
-                    <i class="fa-regular fa-circle progress-circle-icon">
-                        <i class="fa-brands fa-figma fs-1 icon-color"></i>
-                    </i>
-                    <p class="pt-3 about-para">100%</p>
-                    <h5>Figma</h5>
-                </div>
-                <div class=" m-3">
-                    <span class="material-symbols-outlined progress-circle-icon">
-                        <i class="fa-brands fa-git-alt fs-2 ps-2 icon-color special-icon"></i>
-                        progress_activity
-                    </span>
-
-                    <p class="pt-3 about-para">70%</p>
-                    <h5>Git</h5>
+                <div class="w-100">
+                    <h1>
+                        Created with ❤️ by <a class="text-danger text-decoration-none"
+                            href="https://nitin6666.github.io/portfolio-nitin-new/">#Nitin Kumar Gautam</a>
+                    </h1>
                 </div>
             </div>
         </div>
-
-    </section>
-
-    <!--Project Section-->
-    <section id="projects">
-        <div id="portfolio-container">
-            <h2 class="text-center mb-2">Projects</h2>
-            <div id="portfolio-container-projects">
-                <div class="portfolio-search-bar flex-wrap d-flex justify-content-evenly">
-                    <div>All</div>
-                    <div>Website Design</div>
-                    <div>App/Mobile Design</div>
-                    <div>App Desktop</div>
-                    <div>Braiding</div>
-                </div>
-            </div>
-
-            <div id="portfolio-img-container">
-                <div class="row row-cols-1 mx-5 mb-3 row-cols-md-3 g-4">
-                    <!--Card 1-->
-                    <div class="col">
-                        <a href="https://portfolio-tau-lovat-vnug2p773r.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/project 1.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title"> Personal Portfolio</h5>
-                                    <p class="card-text">Animated space-themed portfolio showcasing my skills, projects,
-                                        and contact details.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 2-->
-                    <div class="col">
-                        <a href="https://ferra-landing-page.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/project 3.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ferra – SaaS Landing Page</h5>
-                                    <p class="card-text">Modern dark-themed SaaS landing page for a data automation
-                                        product.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 3-->
-                    <div class="col">
-                        <a href="https://o-level-project.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/project 4.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">MyStore – Ecommerce Website</h5>
-                                    <p class="card-text">Responsive ecommerce UI with product search, categories, and
-                                        promotional banners.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 4-->
-                    <div class="col">
-                        <a href="https://elysian-journey-by-nitin.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/project 5.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Elysian Journeys – Tour & Travel Website</h5>
-                                    <p class="card-text">Travel website featuring image carousel, service highlights,
-                                        and tour navigation.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 5-->
-                    <div class="col">
-                        <a href="https://chamith-fitness-by-nitin.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/project 6.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Power World Gyms – Fitness Website</h5>
-                                    <p class="card-text">Bold black-and-white fitness landing page promoting gym
-                                        memberships and training.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 6-->
-                    <div class="col">
-                        <a href="https://stone-paper-scissor-by-nitin.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/project 7.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Stone Paper Scissors Game</h5>
-                                    <p class="card-text">Interactive JavaScript game where users play against the
-                                        computer live.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 7-->
-                    <div class="col">
-                        <a href="https://where-is-my-train-by-nitin.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/project 8.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Where Is My Train</h5>
-                                    <p class="card-text">Train tracking app for live status, PNR check, and seat
-                                        availability.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 8-->
-                    <div class="col">
-                        <a href="https://calculator-made-by-nitin.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/project 9.jpeg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Calculator App</h5>
-                                    <p class="card-text">Minimal dark-themed calculator app supporting all basic
-                                        arithmetic operations.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 9-->
-                    <div class="col">
-                        <a href="#" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <h1 class="card-title text-center">Under Construction</h1>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-
-    <!-- Certification Section -->
-    <section id="certification">
-        <div id="certification-container">
-            <h2 class="text-center text-white">Certification</h2>
-            <div id="portfolio-img-container mt-5">
-                <div class="row row-cols-1 mx-5 mt-3 row-cols-md-3 g-4">
-                    <!--Card 1-->
-                    <div class="col">
-                        <a href="https://coursera.org/verify/IE5ZJ4GKLBAP" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/Verified Certificate 3.jpeg" class="card-img-top"
-                                    alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">IBM – Introduction to HTML, CSS, & JavaScript</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 2-->
-                    <div class="col">
-                        <a href="https://coursera.org/verify/E26WZQ0IZMNB" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/Verified Certificate 1.jpeg" class="card-img-top"
-                                    alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Google – Foundations of Cybersecurity</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 3-->
-                    <div class="col">
-                        <a href="https://coursera.org/verify/0LDP7D2QWT4Z" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/verified Certificate 2.jpeg" class="card-img-top"
-                                    alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Coursera Project – Getting Started with Microsoft Excel</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 4-->
-                    <div class="col">
-                        <a href="https://www.credly.com/go/2aTsFIVH" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/Verified  Certificate 6.png" class="card-img-top"
-                                    alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Qualcomm – AI Upskilling Certificate</h5>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 5-->
-                    <div class="col">
-                        <a href="https://chamith-fitness-by-nitin.vercel.app/" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/Verified Certificate 5.png" class="card-img-top"
-                                    alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">NIELIT – Certificate for National Occupational Standards</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 6-->
-                    <div class="col">
-                        <a href="https://www.credly.com/badges/4d0431a7-6a39-4008-86fd-cb1a2d3db01d" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/Verified Certificate 4.png" class="card-img-top"
-                                    alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Python Essential Certification</h5>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 7-->
-                    <div class="col">
-                        <a href="#" target="_blank">
-                            <div class="card h-100 text-center responsive-cards mb-2">
-                                <img src="./assets/Certificate 1.jpg" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">SimpliLearn- Web Development for Beginner</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 8-->
-                    <div class="col">
-                        <a href="#" target="_blank">
-                            <div class="card h-100 text-center responsive-cards ">
-                                <img src="./assets/Certificate 2.png" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cydenium - Ethical Hacking Masterclass</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Card 9-->
-                    <div class="col">
-                        <a href="#" target="_blank">
-                            <div class="card h-100 text-center responsive-cards">
-                                <img src="./assets/Certificate 3.png" class="card-img-top" alt="personal-portfolio">
-                                <div class="card-body">
-                                    <h5 class="card-title">EY AI Skills Passport</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section id="contact">
-        <div id="contact-us">
-            <div>
-                <h2 class="text-center text-white">Contact Us</h2>
-                <p class="text-center text-white-50">Let's create something amazing together — reach out.</p>
-            </div>
-
-            <div id="input-container-contact" class="flex-wrap d-flex">
-                <form action="#">
-                    <div id="left-contact-us">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone Number">
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Timeline">
-                        </div>
-                    </div>
-    
-                    <div id="right-contact-us">
-    
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
-                        </div>
-    
-                        <div class="mb-3">
-    
-                            <input type="text" class="form-control" id="formGroupExampleInput"
-                                placeholder="Service of Interest">
-                        </div>
-    
-                        <div class="mb-3">
-                            <textarea class="form-control" placeholder="Project Details......"
-                                id="exampleFormControlTextarea1" rows="5"></textarea>
-                        </div>
-    
-                        <div id="send-me-btn" class="d-flex justify-content-end">
-                            <button type="submit" class="rounded-3 px-4 py-1">Send</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-    <div id="footer" class="text-white py-4">
-        <div class="text-center mb-3">
-            <h1 class="fw-bold">Contact</h1>
-        </div>
-        <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 text-center px-3">
-            <p class="my-1">
-                <i class="fa-solid text-body-secondary fa-envelope me-2"></i>technicalnitin70@gmail.com
-            </p>
-            <p class="my-1">
-                <i class="fa-solid text-body-secondary fa-phone me-2"></i>+91 8439212839
-            </p>
-            <p class="my-1">
-                <i class="fa-solid text-body-secondary fa-location-dot me-2"></i>Madhu Nagar, Agra
-            </p>
-            <p class="my-1 mb-0">
-                Copyright &copy; 2026. All rights reserved.
-            </p>
-            <p class="fs-5 my-1 mb-0">
-                Created with ❤️ by <span class="text-danger">#Nitin Kumar Gautam</span>
-            </p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <a id="whatsapp" href="https://wa.me/8439212839"><i class="fa-brands fa-whatsapp"></i></a>
     <a id="call" href="tel:8439212839"><i class="fa-solid fa-phone"></i></a>
@@ -701,6 +728,36 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <script>
+        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbykWQ6r3UzjZTxgw7KZTLYpUXfaw31Q4UiqjwS-JF63QJWPiXWbz5hyaJAI1Cb-dtpd/exec";
+
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const formData = {
+                name: document.getElementById("contactName").value,
+                phone: document.getElementById("contactPhone").value,
+                timeline: document.getElementById("contactTimeline").value,
+                email: document.getElementById("contactEmail").value,
+                service: document.getElementById("contactService").value,
+                details: document.getElementById("contactDetails").value
+            };
+
+            fetch(SCRIPT_URL, {
+                method: "POST",
+                body: JSON.stringify(formData)
+            })
+                .then(() => {
+                    alert("Thanks! Your message has been sent.");
+                    document.getElementById("contactForm").reset();
+                })
+                .catch((error) => {
+                    alert("Something went wrong. Please try again.");
+                    console.error(error);
+                });
+        });
+    </script>
 </body>
 
 </html>
