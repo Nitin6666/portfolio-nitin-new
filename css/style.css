@@ -1163,6 +1163,11 @@ section {
         font-size: 26px;
     }
 
+    .progress-circle-icon i {
+        right: 15px;
+        top: 18px;
+    }
+
     .hire-me,
     .btn-outline-secondary {
         font-size: 13px;
