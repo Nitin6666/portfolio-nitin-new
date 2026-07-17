@@ -1228,6 +1228,10 @@ section {
     #footer p {
         font-size: 13px;
     }
+    .progress-circle-icon i {
+        right: 14px;
+        top: 18px;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
