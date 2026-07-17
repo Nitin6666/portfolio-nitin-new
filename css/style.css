@@ -5,12 +5,7 @@
     font-family: "Geist Pixel", sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-
-body {
+html,body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: rgb(24, 23, 23);
@@ -1035,6 +1030,16 @@ section {
         font-size: 14px;
     }
 
+    #whatsapp{
+        left:10px;
+        bottom:30px;
+    }
+
+    #call{
+        left:10px;
+        bottom:150px;
+    }
+
     /* Contact and Footer*/
     
     #input-container-contact {
@@ -1112,6 +1117,16 @@ section {
         width: 100%;
     }
 
+    #whatsapp{
+        left:10px;
+        bottom:30px;
+    }
+
+    #call{
+        left:10px;
+        bottom:120px;
+    }
+
     /* contact and  Footer */
 
     
@@ -1146,26 +1161,11 @@ section {
         width: 100%;
     }
 
-    #call {
-        bottom: 200px;
-        left: 60px;
-
-    }
-
-    #whatsapp {
-        bottom: 110px;
-        left: 60px;
-    }
 }
 
 @media (max-width: 400px) {
     .home-left h1 {
         font-size: 26px;
-    }
-
-    .progress-circle-icon i {
-        right: 15px;
-        top: 18px;
     }
 
     .hire-me,
@@ -1194,6 +1194,16 @@ section {
 
     .progress-circle-icon i {
         font-size: 18px;
+    }
+
+    #whatsapp{
+        left:15px;
+        bottom:90px;
+    }
+
+    #call{
+        left:15px;
+        bottom:190px;
     }
 
     /* Contact and Footer */
